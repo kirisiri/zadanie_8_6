@@ -9,6 +9,7 @@ if ( value > 0 ) {
 	alert ('Wynik jest dodatni')
 } else if ( value == 0 ) {
 	alert ('Wynik jest zerowy')
-} else  {
+} else if ( value < 0 ) {
 	alert ('Wynik jest ujemny')
-}
+} else 
+	alert ('Wprowadzono niepoprwane dane.')
