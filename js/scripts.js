@@ -13,8 +13,8 @@ function obliczRownanie() {
 	alert ('Wynik jest ujemny')
 	} else 
 	alert ('Wprowadzono niepoprwane dane.')
-	var c = prompt ('Do you want to have another go? Answer Y - for yes or any other key to exit');
-	if ( (c == 'Y') || ( c == 'y') ) {
+	var askIfAgain = prompt ('Do you want to have another go? Answer Y - for yes or any other key to exit');
+	if ( (askIfAgain == 'Y') || ( askIfAgain == 'y') ) {
 		obliczRownanie();
 	}
 	else alert ('Do zobaczenia!')
